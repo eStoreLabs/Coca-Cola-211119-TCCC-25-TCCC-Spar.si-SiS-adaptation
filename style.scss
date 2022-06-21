@@ -1,0 +1,468 @@
+
+
+@charset "UTF-8";
+@import url(//db.onlinewebfonts.com/c/f0f19762e9ddd7cf1afd8f5b99249be9?family=TCCC-UnityCondensed);
+html{
+  scroll-behavior: smooth;
+}
+$regular: 'TCCC-UnityCondensed', sans-serif;
+$red: #de0a1c;
+$orange: #ff8300;
+$green: #00a938;
+$dark-green:#1e712f;
+$burgundy: #6c1f37;
+$navy: #00256c;
+$white: #fff;
+$beige: #ffe7bb;
+$darkbrown:#341a11;
+$black: #000;
+
+@mixin img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  @mixin text {
+    margin: 0;
+    padding: 0;
+    line-height: inherit;
+    color: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-family: $regular;
+    color: $black;
+  }
+
+  #es-CocaCola .es-CocaCola {
+    font-family: $regular;
+    max-width: 1280px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    color: #000;
+    background: #fff;
+    scroll-behavior: smooth;
+  }
+
+  .es-kv{
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 400px;
+    background-image: url(img/kv-coca-cola.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__content{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-end;
+      padding: 50px;
+      margin-top: -100px;
+    }
+    &__title{
+      text-transform: uppercase;
+      color: $white;
+      font-size: 100px;
+      font-family: $regular;
+      letter-spacing: -1px;
+      margin-bottom: 0;
+    }
+    &__img{
+      display: none;
+    }
+  }
+
+    .es-nav{
+      padding: 10px 0;
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+      max-width: 1280px;
+      &__main{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        justify-content: center;
+      }
+      &__secondary{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      &__single{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 40px;
+        position: relative;
+        margin: 10px;       
+        max-width: 350px;
+        width: auto;
+        min-height: 350px;
+        &--cola{
+          background-color: $red;
+        }
+        &--fanta{
+          background-color: $orange;
+        }
+        &--fuzeTea{
+          background-color: $green;
+        }
+        &--cappy{
+          background-color: $black;
+        }
+        &--adez{
+          background-color: $beige;
+        }
+        &--smartWater{
+          background-color: $white;
+        }
+        &--costaCoffee{
+          background-color: $burgundy;
+        }
+        &--thinner{
+          width: 300px;
+        }
+      }
+      &__logo{
+        padding: 20px;
+      }
+      &__link{
+        position: absolute;
+        top: 35%;
+        width: 50px;
+        height: 50px;
+        &:hover{
+          transform: scale(1.1);
+          transition: all 200ms ease-in-out;
+          opacity: .8;
+
+        }
+      }
+    }
+    .es-banner{
+      max-width: 1280px;
+      height: 300px;
+      width: 100%;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      padding-bottom: 15px;
+
+      overflow: hidden;
+    }
+    .es-cola{
+      img{
+        min-width: 400px;
+        width: 50%;
+      }
+      
+    }
+    .es-fanta{
+      justify-content: space-around;
+      align-items: center;
+      background-image: url(/img/fanta-banner-bg.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 100% 100%;
+      &__logo{
+        width: 50%;
+        display: flex;
+          justify-content: center;
+          align-items: center;
+        img{
+          width: 100%;
+          max-width: 280px;
+          
+        }
+      }
+      &__products{
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        img{
+          width: 100%;
+          max-width: 455px;
+        }
+      }
+    }
+    .es-fuzeTea{
+      justify-content: space-around;
+      align-items: center;
+      &__logo{
+        width: 50%;
+        img{
+          width: 100%;
+        }
+      }
+      &__products{
+        width: 50%; 
+        background-image: url(img/fuzeTea-banner-clear-bg.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        img{
+          width: 100%;
+        }
+      }
+    }
+    .es-cappy{
+      background-image: url(img/Cappy-banner-bg.png);
+      background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        &__logo{
+          width: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          img{
+            width: 100%;
+            max-width: 280px;
+          }
+        }
+        &__products{
+          width: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          img{
+            width: 100%;
+            max-width: 325px;
+          }
+        }
+    }
+    .es-adez{
+      justify-content: space-between;
+      align-items: center;
+      background-image: url(img/Adez-banner-doodles.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 100% 100%;
+      &__logo{
+        width: 50%;
+        display: flex;
+          justify-content: center;
+          align-items: center;
+        img{
+          width: 100%;
+          max-width: 280px;
+          
+        }
+      }
+      &__products{
+        width: 50%;
+        img{
+          width: 100%;
+        }
+      }
+    }
+    .es-smartWater{
+      justify-content: space-between;
+      align-items: center;
+      &__logo{
+        width: 50%;
+        display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: $navy;
+        img{
+          width: 100%;
+          
+        }
+      }
+      &__products{
+        width: 50%;
+        img{
+          width: 100%;
+        }
+      }
+    }
+    .es-costaCoffee{
+      justify-content: space-between;
+      align-items: center;
+      background-color: $burgundy;
+      &__logo{
+        width: 50%;
+        display: flex;
+          justify-content: center;
+          align-items: center;
+        img{
+          width: 100%;
+          max-width: 400px;
+          
+        }
+      }
+      &__products{
+        img{
+          max-width: 480px;
+        }
+      }
+    }
+  @media screen and (max-width: 900px){
+    .es-kv{
+      min-height: 300px;
+    }
+  }
+  
+  @media screen and (max-width: 768px){
+    .es-kv{
+      &__title{
+        font-size: 40px;
+      }
+      &__content{
+        img{
+          max-width: 280px;
+        }
+      }
+    }
+    .es-cola{
+      img{
+        width: 100%;
+        min-width: auto;
+      }
+      &__products{
+        display: none;
+      }
+    }
+    .es-fanta{
+      background-image: url(/img/fanta-banner-bg-mobile.png);
+      &__logo{
+        order: 1;
+        width: 100%;
+        max-width: 200px;
+        margin: 0 auto;
+      }
+      &__products{
+        display: none;
+        order: 2;
+        width: 100%;
+        margin-bottom: 0;
+      }
+    }
+    .es-fuzeTea{
+      &__logo{
+        width: 100%;
+        img{
+          width: 100%;
+        }
+      }
+      &__products{
+        display: none;
+        width: 100%; 
+        img{
+          width: 100%;
+        
+        }
+      }
+    }
+    .es-cappy{
+      background-size: cover;
+      &__logo{
+        width: 100%;
+        img{
+          width: 100%;
+        }
+      }
+      &__products{
+        display: none;
+        width: 100%; 
+        img{
+          width: 100%;
+        
+        }
+      }
+    }
+    .es-adez{
+      background-size: cover;
+      &__logo{
+        width: 100%;
+        padding: 30px;
+        img{
+          max-width: 280px;
+        }
+        
+      }
+      &__products{
+        display: none;
+        width: 100%;   
+      }
+    }
+    .es-smartWater{
+      &__logo{
+        width: 100%;
+        order: 1;
+      }
+      &__products{
+        display: none;
+        width: 100%;
+        order: 2;     
+      }
+    }
+    .es-costaCoffee{
+      &__logo{
+        width: 100%;
+        padding: 30px;
+        img{
+          max-width: 280px;
+        }
+        
+      }
+      &__products{
+        display: none;
+        width: 100%;   
+      }
+    }
+  }
+  @media screen and (max-width: 650px){
+    .es-nav{
+      &__single{
+        min-height: max-content;
+        width: 100%;
+        padding: 0;
+      }
+      &__product{
+        display: none;
+      }
+      &__link{
+        display: none;
+      }
+    }
+  }
+  @media screen and (max-width: 426px){
+    .es-kv{
+      background-image: none;
+      background-color: $darkbrown;
+      &__content{
+        align-items: center;
+        padding: 0;
+      }
+      &__img{
+        display: flex;
+        width: 100%;
+        img{
+          width: 100%;
+        }
+      }
+    }
+    
+  }

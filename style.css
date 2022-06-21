@@ -1,0 +1,428 @@
+@import url(//db.onlinewebfonts.com/c/f0f19762e9ddd7cf1afd8f5b99249be9?family=TCCC-UnityCondensed);
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  font-family: "TCCC-UnityCondensed", sans-serif;
+  color: #000;
+}
+
+#es-CocaCola .es-CocaCola {
+  font-family: "TCCC-UnityCondensed", sans-serif;
+  max-width: 1280px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  color: #000;
+  background: #fff;
+  scroll-behavior: smooth;
+}
+
+.es-kv {
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 400px;
+  background-image: url(img/kv-coca-cola.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.es-kv__content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 50px;
+  margin-top: -100px;
+}
+.es-kv__title {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 100px;
+  font-family: "TCCC-UnityCondensed", sans-serif;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+}
+.es-kv__img {
+  display: none;
+}
+
+.es-nav {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+.es-nav__main {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+}
+.es-nav__secondary {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.es-nav__single {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  position: relative;
+  margin: 10px;
+  max-width: 350px;
+  width: auto;
+  min-height: 350px;
+}
+.es-nav__single--cola {
+  background-color: #de0a1c;
+}
+.es-nav__single--fanta {
+  background-color: #ff8300;
+}
+.es-nav__single--fuzeTea {
+  background-color: #00a938;
+}
+.es-nav__single--cappy {
+  background-color: #000;
+}
+.es-nav__single--adez {
+  background-color: #ffe7bb;
+}
+.es-nav__single--smartWater {
+  background-color: #fff;
+}
+.es-nav__single--costaCoffee {
+  background-color: #6c1f37;
+}
+.es-nav__single--thinner {
+  width: 300px;
+}
+.es-nav__logo {
+  padding: 20px;
+}
+.es-nav__link {
+  position: absolute;
+  top: 35%;
+  width: 50px;
+  height: 50px;
+}
+.es-nav__link:hover {
+  transform: scale(1.1);
+  transition: all 200ms ease-in-out;
+  opacity: 0.8;
+}
+
+.es-banner {
+  max-width: 1280px;
+  height: 300px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 15px;
+  overflow: hidden;
+}
+
+.es-cola img {
+  min-width: 400px;
+  width: 50%;
+}
+
+.es-fanta {
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(/img/fanta-banner-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+.es-fanta__logo {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.es-fanta__logo img {
+  width: 100%;
+  max-width: 280px;
+}
+.es-fanta__products {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.es-fanta__products img {
+  width: 100%;
+  max-width: 455px;
+}
+
+.es-fuzeTea {
+  justify-content: space-around;
+  align-items: center;
+}
+.es-fuzeTea__logo {
+  width: 50%;
+}
+.es-fuzeTea__logo img {
+  width: 100%;
+}
+.es-fuzeTea__products {
+  width: 50%;
+  background-image: url(img/fuzeTea-banner-clear-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+.es-fuzeTea__products img {
+  width: 100%;
+}
+
+.es-cappy {
+  background-image: url(img/Cappy-banner-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+.es-cappy__logo {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.es-cappy__logo img {
+  width: 100%;
+  max-width: 280px;
+}
+.es-cappy__products {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.es-cappy__products img {
+  width: 100%;
+  max-width: 325px;
+}
+
+.es-adez {
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(img/Adez-banner-doodles.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+.es-adez__logo {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.es-adez__logo img {
+  width: 100%;
+  max-width: 280px;
+}
+.es-adez__products {
+  width: 50%;
+}
+.es-adez__products img {
+  width: 100%;
+}
+
+.es-smartWater {
+  justify-content: space-between;
+  align-items: center;
+}
+.es-smartWater__logo {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00256c;
+}
+.es-smartWater__logo img {
+  width: 100%;
+}
+.es-smartWater__products {
+  width: 50%;
+}
+.es-smartWater__products img {
+  width: 100%;
+}
+
+.es-costaCoffee {
+  justify-content: space-between;
+  align-items: center;
+  background-color: #6c1f37;
+}
+.es-costaCoffee__logo {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.es-costaCoffee__logo img {
+  width: 100%;
+  max-width: 400px;
+}
+.es-costaCoffee__products img {
+  max-width: 480px;
+}
+
+@media screen and (max-width: 900px) {
+  .es-kv {
+    min-height: 300px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .es-kv__title {
+    font-size: 40px;
+  }
+  .es-kv__content img {
+    max-width: 280px;
+  }
+
+  .es-cola img {
+    width: 100%;
+    min-width: auto;
+  }
+  .es-cola__products {
+    display: none;
+  }
+
+  .es-fanta {
+    background-image: url(/img/fanta-banner-bg-mobile.png);
+  }
+  .es-fanta__logo {
+    order: 1;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+  }
+  .es-fanta__products {
+    display: none;
+    order: 2;
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .es-fuzeTea__logo {
+    width: 100%;
+  }
+  .es-fuzeTea__logo img {
+    width: 100%;
+  }
+  .es-fuzeTea__products {
+    display: none;
+    width: 100%;
+  }
+  .es-fuzeTea__products img {
+    width: 100%;
+  }
+
+  .es-cappy {
+    background-size: cover;
+  }
+  .es-cappy__logo {
+    width: 100%;
+  }
+  .es-cappy__logo img {
+    width: 100%;
+  }
+  .es-cappy__products {
+    display: none;
+    width: 100%;
+  }
+  .es-cappy__products img {
+    width: 100%;
+  }
+
+  .es-adez {
+    background-size: cover;
+  }
+  .es-adez__logo {
+    width: 100%;
+    padding: 30px;
+  }
+  .es-adez__logo img {
+    max-width: 280px;
+  }
+  .es-adez__products {
+    display: none;
+    width: 100%;
+  }
+
+  .es-smartWater__logo {
+    width: 100%;
+    order: 1;
+  }
+  .es-smartWater__products {
+    display: none;
+    width: 100%;
+    order: 2;
+  }
+
+  .es-costaCoffee__logo {
+    width: 100%;
+    padding: 30px;
+  }
+  .es-costaCoffee__logo img {
+    max-width: 280px;
+  }
+  .es-costaCoffee__products {
+    display: none;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .es-nav__single {
+    min-height: -webkit-max-content;
+    min-height: -moz-max-content;
+    min-height: max-content;
+    width: 100%;
+    padding: 0;
+  }
+  .es-nav__product {
+    display: none;
+  }
+  .es-nav__link {
+    display: none;
+  }
+}
+@media screen and (max-width: 426px) {
+  .es-kv {
+    background-image: none;
+    background-color: #341a11;
+  }
+  .es-kv__content {
+    align-items: center;
+    padding: 0;
+  }
+  .es-kv__img {
+    display: flex;
+    width: 100%;
+  }
+  .es-kv__img img {
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */
