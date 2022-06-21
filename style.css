@@ -1,4 +1,9 @@
 @import url(//db.onlinewebfonts.com/c/f0f19762e9ddd7cf1afd8f5b99249be9?family=TCCC-UnityCondensed);
+@font-face {
+  font-family: "TCCC-UnityCondensed";
+  src: url("//db.onlinewebfonts.com/t/f0f19762e9ddd7cf1afd8f5b99249be9.eot");
+  src: url("//db.onlinewebfonts.com/t/f0f19762e9ddd7cf1afd8f5b99249be9.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f0f19762e9ddd7cf1afd8f5b99249be9.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f0f19762e9ddd7cf1afd8f5b99249be9.woff") format("woff"), url("//db.onlinewebfonts.com/t/f0f19762e9ddd7cf1afd8f5b99249be9.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f0f19762e9ddd7cf1afd8f5b99249be9.svg#TCCC-UnityCondensed") format("svg");
+}
 html {
   scroll-behavior: smooth;
 }
