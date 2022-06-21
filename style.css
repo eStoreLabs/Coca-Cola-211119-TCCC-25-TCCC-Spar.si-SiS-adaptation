@@ -45,6 +45,7 @@ h5 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 20px;
 }
 .es-kv__container {
   width: 50%;
@@ -65,16 +66,21 @@ h5 {
   letter-spacing: -1px;
   margin-bottom: 0;
 }
+.es-kv__logo {
+  width: auto;
+}
 .es-kv__img {
   display: none;
 }
 
 .es-nav {
-  padding: 10px 0;
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
   max-width: 1280px;
+  width: 100%;
 }
 .es-nav__main {
   width: 100%;
@@ -146,6 +152,8 @@ h5 {
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   overflow: hidden;
 }
 
@@ -219,6 +227,7 @@ h5 {
 }
 .es-fuzeTea__products img {
   width: 100%;
+  margin-left: -50px;
 }
 
 .es-cappy {
