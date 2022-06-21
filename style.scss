@@ -171,9 +171,25 @@ $black: #000;
       overflow: hidden;
     }
     .es-cola{
-      img{
-        min-width: 400px;
+      &__logo{
         width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+          width: 100%;
+          max-width: 300px;
+        }
+      }
+      &__products{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+          width: 100%;
+          max-width: 470px;
+        }
       }
       
     }
@@ -305,17 +321,21 @@ $black: #000;
       &__logo{
         width: 50%;
         display: flex;
-          justify-content: center;
-          align-items: center;
+        justify-content: center;
+        align-items: center;
         img{
           width: 100%;
-          max-width: 400px;
-          
+          max-width: 280px;
         }
       }
       &__products{
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
         img{
-          max-width: 480px;
+          width: 100%;
+          max-width: 470px;
         }
       }
     }

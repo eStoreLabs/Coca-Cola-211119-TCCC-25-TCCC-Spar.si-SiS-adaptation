@@ -147,9 +147,25 @@ h5 {
   overflow: hidden;
 }
 
-.es-cola img {
-  min-width: 400px;
+.es-cola__logo {
   width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.es-cola__logo img {
+  width: 100%;
+  max-width: 300px;
+}
+.es-cola__products {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.es-cola__products img {
+  width: 100%;
+  max-width: 470px;
 }
 
 .es-fanta {
@@ -288,10 +304,17 @@ h5 {
 }
 .es-costaCoffee__logo img {
   width: 100%;
-  max-width: 400px;
+  max-width: 280px;
+}
+.es-costaCoffee__products {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 .es-costaCoffee__products img {
-  max-width: 480px;
+  width: 100%;
+  max-width: 470px;
 }
 
 @media screen and (max-width: 900px) {
