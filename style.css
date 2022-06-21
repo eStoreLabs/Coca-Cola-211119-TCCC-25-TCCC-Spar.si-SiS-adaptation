@@ -206,6 +206,7 @@ h5 {
 }
 .es-fuzeTea__logo img {
   width: 100%;
+  max-height: 317px;
 }
 .es-fuzeTea__products {
   width: 50%;
@@ -295,6 +296,10 @@ h5 {
   justify-content: space-between;
   align-items: center;
   background-color: #6c1f37;
+  background-image: url(/img/costaCoffe-banner-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 50% 100%;
 }
 .es-costaCoffee__logo {
   width: 50%;
@@ -410,6 +415,9 @@ h5 {
     order: 2;
   }
 
+  .es-costaCoffee {
+    background-size: 100% 100%;
+  }
   .es-costaCoffee__logo {
     width: 100%;
     padding: 30px;
@@ -445,6 +453,13 @@ h5 {
   .es-kv__content {
     align-items: center;
     padding: 0;
+    margin-top: 0;
+  }
+  .es-kv__title {
+    margin-bottom: 20px;
+  }
+  .es-kv__logo {
+    margin-bottom: 20px;
   }
   .es-kv__img {
     display: flex;
